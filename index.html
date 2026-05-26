@@ -1,49 +1,192 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeremy McCormick | Data Engineer</title>
 </head>
 
-<body style="font-family: Arial; max-width: 900px; margin: auto; padding: 40px; background-color: #111827; color: white;">
+<body style="font-family: Arial, sans-serif; max-width: 1000px; margin: auto; padding: 40px; background-color: #111827; color: #f9fafb; line-height: 1.7;">
 
-    <h1 style="color:#60a5fa;">
-        Jeremy McCormick
-    </h1>
+    <h1 style="color:#60a5fa; margin-bottom: 5px;">Jeremy McCormick</h1>
+
+    <p style="font-size: 18px; margin-top: 0;">
+        Data Engineer | AWS | Terraform | DBT | Apache Iceberg | Python | SQL
+    </p>
 
     <p>
-        Data Engineer focused on cloud pipelines,
-        streaming systems, and analytics engineering.
+        Data Engineer with experience building cloud-native data pipelines,
+        serverless lakehouse architectures, analytics-ready data models,
+        and production ETL/ELT workflows across enterprise and startup environments.
+    </p>
+
+    <p>
+        I focus on building practical data systems that support operational analytics,
+        business decision-making, and scalable reporting.
+    </p>
+
+    <p>
+        <a style="color:#93c5fd;" href="resume.pdf" download>
+            Download Resume
+        </a>
+        |
+        <a style="color:#93c5fd;" href="https://github.com/SpotMcCormick">
+            GitHub
+        </a>
+        |
+        <a style="color:#93c5fd;" href="https://www.linkedin.com/in/jeremyalanmccormick/">
+            LinkedIn
+        </a>
     </p>
 
     <hr>
 
-    <h2>Projects</h2>
+    <h2 style="color:#93c5fd;">Featured Projects</h2>
 
-    <h3>World Flight Tracker</h3>
+    <div style="border:1px solid #374151; border-radius:10px; padding:25px; margin-bottom:30px;">
+        <h2>AWS FMCSA Lakehouse</h2>
+
+        <p>
+            Serverless AWS lakehouse project built with Terraform, Lambda,
+            S3, Glue Catalog, Athena, DBT, and Apache Iceberg.
+        </p>
+
+        <ul>
+            <li>Provisioned AWS infrastructure with Terraform infrastructure-as-code.</li>
+            <li>Built monthly Lambda ingestion from the FMCSA Socrata REST API into S3 bronze-layer JSON storage.</li>
+            <li>Modeled a medallion architecture using Athena, DBT, Apache Iceberg, and partitioned Parquet tables.</li>
+            <li>Created analytical marts for active carrier counts, power units, and driver metrics by state, organization type, and reporting year.</li>
+            <li>Designed the project to demonstrate serverless lakehouse patterns, IaC, and analytics engineering best practices.</li>
+        </ul>
+
+        <p>
+            <strong>Tech Stack:</strong>
+            AWS Lambda, S3, Glue, Athena, DBT, Apache Iceberg, Terraform, Python, SQL
+        </p>
+
+        <a style="color:#93c5fd;" href="https://github.com/SpotMcCormick">
+            View GitHub
+        </a>
+    </div>
+
+    <div style="border:1px solid #374151; border-radius:10px; padding:25px; margin-bottom:30px;">
+        <h2>World Flight Tracker</h2>
+
+        <p>
+            Near-real-time flight telemetry pipeline using PostgreSQL,
+            Amazon S3, Parquet, and Databricks Delta Lake.
+        </p>
+
+        <ul>
+            <li>Ingested global flight telemetry from the OpenSky Network REST API into PostgreSQL as a raw JSON bronze layer.</li>
+            <li>Processed approximately 6.5 million flight telemetry records daily.</li>
+            <li>Flattened and normalized JSON into structured analytical tables.</li>
+            <li>Exported Parquet datasets to Amazon S3 every 5 minutes for near-real-time analytical workloads.</li>
+            <li>Integrated Databricks Delta Lake for ACID-compliant analytical views and lakehouse-style processing.</li>
+        </ul>
+
+        <p>
+            <strong>Tech Stack:</strong>
+            Python, PostgreSQL, REST APIs, Amazon S3, Parquet, Databricks, Delta Lake
+        </p>
+
+        <a style="color:#93c5fd;" href="https://github.com/SpotMcCormick/world_flight_tracker">
+            View Project
+        </a>
+    </div>
+
+    <div style="border:1px solid #374151; border-radius:10px; padding:25px; margin-bottom:30px;">
+        <h2>California Drought & Weather Correlation Tool</h2>
+
+        <p>
+            AWS data lakehouse project combining weather, drought,
+            and geospatial datasets for environmental analytics.
+        </p>
+
+        <ul>
+            <li>Built an AWS-backed lakehouse using Apache Iceberg for schema evolution and ACID-style table management.</li>
+            <li>Implemented Bronze, Silver, and Gold medallion layers for data refinement.</li>
+            <li>Used PySpark, Airflow, and DBT to ingest, normalize, and transform environmental datasets.</li>
+            <li>Integrated GeoJSON and REST API data sources into a unified analytical storage layer.</li>
+            <li>Improved query performance through partitioning and columnar storage strategies.</li>
+        </ul>
+
+        <p>
+            <strong>Tech Stack:</strong>
+            AWS, S3, Apache Iceberg, PySpark, Airflow, DBT, GeoJSON, REST APIs
+        </p>
+
+        <a style="color:#93c5fd;" href="https://github.com/SpotMcCormick/ca-drought-weather-project">
+            View Project
+        </a>
+    </div>
+
+    <hr>
+
+    <h2 style="color:#93c5fd;">Experience Highlights</h2>
+
+    <ul>
+        <li>Built production ETL pipelines using Python, SQLite, Snowflake, REST APIs, and IoT data.</li>
+        <li>Developed DBT transformation workflows and CI/CD deployments with GitHub Actions.</li>
+        <li>Created operational metrics that contributed to a 56-day reduction in leak repair times.</li>
+        <li>Designed Neo4j graph models for pipeline asset networks and infrastructure relationships.</li>
+        <li>Performed geospatial data processing with GeoPandas and ESRI APIs.</li>
+    </ul>
+
+    <hr>
+
+    <h2 style="color:#93c5fd;">Technical Skills</h2>
 
     <p>
-        Kafka + PostgreSQL + Databricks streaming pipeline
-        ingesting real-time global flight telemetry data.
+        <strong>Data Engineering:</strong>
+        Python, SQL, DBT, Apache Airflow, Apache Spark, Apache Iceberg
     </p>
-
-    <a style="color:#93c5fd;"
-       href="https://github.com/SpotMcCormick/world_flight_tracker">
-        View Project
-    </a>
-
-    <br><br>
-
-    <h3>California Drought Weather Pipeline</h3>
 
     <p>
-        AWS-based data engineering pipeline using
-        S3, Athena, Glue, and weather datasets.
+        <strong>Cloud & Infrastructure:</strong>
+        AWS S3, Lambda, Athena, Glue, EC2, Terraform, GitHub Actions, GCP BigQuery, GCP Spanner
     </p>
 
-    <a style="color:#93c5fd;"
-       href="https://github.com/SpotMcCormick/ca-drought-weather-project">
-        View Project
-    </a>
+    <p>
+        <strong>Databases & Analytics:</strong>
+        PostgreSQL, Snowflake, BigQuery, Neo4j, Azure SQL Server, Tableau, Power BI, Looker, Streamlit
+    </p>
+
+    <hr>
+
+    <h2 style="color:#93c5fd;">Resume</h2>
+
+    <p>
+        <a style="color:#93c5fd; font-size: 18px;" href="resume.pdf" download>
+            Download Jeremy McCormick Resume
+        </a>
+    </p>
+
+    <hr>
+
+    <h2 style="color:#93c5fd;">Contact</h2>
+
+    <p>
+        <strong>Email:</strong>
+        <a style="color:#93c5fd;" href="mailto:JeremyAlanMcCormick@gmail.com">
+            JeremyAlanMcCormick@gmail.com
+        </a>
+    </p>
+
+    <p>
+        <strong>GitHub:</strong>
+        <a style="color:#93c5fd;" href="https://github.com/SpotMcCormick">
+            github.com/SpotMcCormick
+        </a>
+    </p>
+
+    <p>
+        <strong>LinkedIn:</strong>
+        <a style="color:#93c5fd;" href="https://www.linkedin.com/in/jeremyalanmccormick/">
+            linkedin.com/in/jeremyalanmccormick
+        </a>
+    </p>
 
 </body>
 </html>
