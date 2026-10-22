@@ -81,4 +81,4 @@ Majors: Business Administration & Data Analysis: Data Analytics
 **Data Analytics Certificate**, Nashville Software School, Nashville, TN (2023)
 Major: Data Analytics
 
-<a class="button" href="/resume.pdf" download>Download Resume (PDF)</a>
+<a class="button" href="/resume.pdf" download>Download Resume</a>
