@@ -2,5 +2,5 @@
 layout: default
 title: about
 ---
+## About me
 
-<h2>coming soon</h2>
