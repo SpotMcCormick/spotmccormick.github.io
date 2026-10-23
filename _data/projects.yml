@@ -1,0 +1,42 @@
+- title: "Bank Redlining Analysis"
+  description: "Combined FDIC banking data with Census population and income data to analyze disparities in banking access across counties."
+  technologies:
+    - Python
+    - Snowflake
+    - SQL
+    - AWS S3
+    - ETL
+  url: "https://github.com/SpotMcCormick/bank-redline-project"
+
+- title: "AWS FMCSA Lakehouse"
+  description: "Built a serverless AWS lakehouse to ingest FMCSA carrier data and produce analytics-ready datasets."
+  technologies:
+    - AWS
+    - Python
+    - Terraform
+    - DBT
+    - Apache Iceberg
+    - Athena
+  url: "https://github.com/SpotMcCormick/aws-fmcsa-lakehouse"
+
+- title: "World Flight Tracker"
+  description: "Engineered a flight data pipeline that ingests flight telemetry, stages raw records, and transforms them into analytical datasets."
+  technologies:
+    - Python
+    - PostgreSQL
+    - ClickHouse
+    - AWS S3
+    - ETL
+  url: "https://github.com/SpotMcCormick/world_flight_tracker"
+
+- title: "California Drought & Weather Correlation Tool"
+  description: "Built a data lakehouse integrating drought and weather datasets into structured layers for analytical use."
+  technologies:
+    - AWS
+    - Python
+    - PySpark
+    - Airflow
+    - DBT
+    - Docker
+    - Apache Iceberg
+  url: "https://github.com/SpotMcCormick/ca-drought-weather-project"

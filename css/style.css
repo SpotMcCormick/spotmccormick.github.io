@@ -98,3 +98,17 @@ main a:hover {
   color: inherit;
   text-decoration: underline;
 }
+/* Projects layout */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  align-items: stretch;
+}
+.project-card {
+  padding: 1.25rem;
+  border: 1px solid #c7c9c9;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.9);
+  min-width: 0;
+}
