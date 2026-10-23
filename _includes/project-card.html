@@ -1,0 +1,15 @@
+<article class="project-card">
+  <h2>{{ include.project.title }}</h2>
+
+  <p>{{ include.project.description }}</p>
+
+  <ul class="project-technologies">
+    {% for tech in include.project.technologies %}
+      <li>{{ tech }}</li>
+    {% endfor %}
+  </ul>
+
+  <a href="{{ include.project.url }}" target="_blank" rel="noopener noreferrer">
+    View Project →
+  </a>
+</article>
