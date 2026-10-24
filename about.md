@@ -2,7 +2,6 @@
 layout: default
 title: About
 ---
-## Hi, I'm Jeremy!
 
 I'm a data professional based in Mississippi, originally from Southern California. Before moving into data, I spent a decade in Nashville pursuing music. I first got interested in data and analytics while marketing my own drum school, which sparked a new direction for my career.
 
