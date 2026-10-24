@@ -6,6 +6,4 @@ title: Home
 
 Thanks for visiting!
 
-I'm a data engineer, and I made this site because I'm an egomaniac who desires attention and wants to talk to you about all things data.
-
-...also, just kidding. Feel free to poke around, check out my blog, and reach out!
+I'm a data engineer, and I made this site because I wanted an outlet to create something and share my thoughts on data,career, or whatever comes my way. Feel free to poke around, check out my blog, and reach out
