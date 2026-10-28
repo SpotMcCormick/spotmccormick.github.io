@@ -26,6 +26,7 @@
     - PostgreSQL
     - ClickHouse
     - AWS S3
+    - Databricks
     - ETL
   url: "https://github.com/SpotMcCormick/world_flight_tracker"
 
