@@ -10,7 +10,9 @@ permalink: /blog/:title
 <img src="/photos/linux-desktop.jpeg" alt = "choose linux" width="500" height="300">
     </div>
 <div align="center">
+    <br>
+
 <p>
-this is a paragraph
+    I was a Apple stan for the longest time. Right after high school graduation I knew i needed to laptop to head to college. In high school I was a band kid in the drum line and at the time I wanted to study music 
 </p>
 </div>
