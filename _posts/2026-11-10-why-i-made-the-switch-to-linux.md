@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Why I Switched To Linux"
-date: 2026-10-03
+date: 2026-11-10
 permalink: /blog/:title
 ---
 <h2 align="center">Why I Switched to Linux Desktop</h2>
